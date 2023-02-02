@@ -1,16 +1,14 @@
-import Navbarr from './Navbar';
-import Home from './Home';
-import AboutMe from './aboutMe';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import './styles.css';
+
 function App() {
   return (
     <div className="App">
-      <Navbarr/>
-      <div className='content'>
-        <Home/>
-      </div>
-      <div className='aboutme'>
-        <AboutMe/>
-      </div>
+      <Navbar/>
+      <Home />
+      <AboutMe />
     </div>
     
   );

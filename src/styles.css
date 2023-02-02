@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Unbounded:wght@300&display=swap');
+
+body{
+  background-color: #041C32;
+  margin: 0;
+  /* background-image:url("public\images\pngwing.com.png"); */
+  height: 100%;
+}
+
+.navbar{
+  color: #E7F6F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navbar .links{
+  margin-left: auto;
+  padding-right: 1%;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.links :hover{
+  color: #ECB365;
+  padding-bottom: 50%;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:inherit;
+}
+
+.navlogo{
+  /* font-family: 'Nunito Sans', sans-serif; */
+   font-family: 'Unbounded', cursive;
+  padding-left:1%;
+  text-decoration: solid;
+}
+
+.LandingPage{
+  display: block;
+  align-items: center;
+  padding-left: 20%;
+  font-family: 'Unbounded', cursive;
+  padding-top: 200px;
+  padding-left: 300px;
+
+}
+
+/* .background{
+    opacity: 40%;
+    width: 100%;
+    
+} */
+
+.tst { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.hw{
+  color: #DCD7C9;
+  font-size: 1.75rem;
+
+}
+
+.tst{
+  color: #ECB365;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.75rem;
+ 
+}
+
+.web{
+  color: #DCD7C9;
+  font-size: 1.75rem;
+  
+}
+
+.toggle-button{
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column ;
+  justify-content: space-between;
+  width: 30px;
+  height:21px;
+}
+
+.toggle-button .bar{
+  height: 30px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10%;
+}
+
+/*about me section*/
+.intro{
+    padding-top: 250px;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+   
+}
+
+.intro-heading{
+    font-family: 'Unbounded', cursive;
+    color: #ECB365;
+    display: block;
+    width: 30%;
+    text-align: left;
+    padding-left: 8%;
+    /* flex-flow: column wrap;
+    align-content: flex-start; */
+}
+.intro-para{
+    color: #DCD7C9;
+    display: flex;
+    width: 30%;
+    text-align: left;
+    padding-left: 8%;
+    font-size: 150%;
+    /* flex-flow: column wrap;
+    align-content: flex-start; */
+}
+.wrapper{
+  display: grid;
+  grid-column: 5;
+  grid-row: auto;
+}
+
+/* .skills{
+    float: right;
+} */
+
+.skill-element{
+    max-width: 15%;
+    background:linear-gradient(white, #ECB365);
+    padding: 1rem;
+    margin: 2.5%;
+    border-radius: .25rem;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(255,255,255, 0.3);
+}
+
+

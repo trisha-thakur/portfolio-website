@@ -1,15 +1,19 @@
+import { motion } from "framer-motion";
+
 const Home = () => {
     return ( 
-        <div className="landingPage">
+        <motion.div className="landingPage"
+        animate={{y:50}}
+        transition={{ ease: "easeOut", duration: 3 }}>
             {/* <img src="images/pngwing.com.png" alt="backgroung" className="background"></img> */}
             <div className="hw">Hello World!</div>
             <h1 className="tst">
-                I am Trisha Sharan Thakur! 
+                I am Trisha! 
             </h1>
             <div className="web">
-                Web Developer
+                 A Web Developer
             </div>
-        </div>
+        </motion.div>
      );
 }
  
